@@ -4,6 +4,7 @@ const port = 3001;
 
 app.get('/', (req, res) => {
     console.log("hi")
+    console.log("hi from dev branch ")
     res.send('Hello, World!');
 });
 
