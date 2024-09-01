@@ -1,0 +1,8 @@
+version: '3'
+services:
+  app:
+    image: sahhhall/jenkinstestnode:latest
+    ports:
+      - "8080:3001"  
+    environment:
+      - NODE_ENV=production
